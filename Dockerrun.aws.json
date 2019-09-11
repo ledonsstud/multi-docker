@@ -25,7 +25,7 @@
             "name": "nginx",
             "image": "ledons/multi-nginx",
             "essential": true,
-            "portMappins": [
+            "portMappings": [
                 {
                     "hostPort": 80,
                     "containerPort": 80
